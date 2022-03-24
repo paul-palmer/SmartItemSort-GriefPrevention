@@ -1,0 +1,14 @@
+# can items be teleported from unclaimed land? When true and the source is in unclaimed land, all targets, including
+# those in claimed land are considered. When false, teleporting from unclaimed land is not allowed.
+allowFromUnclaimedLand: true
+
+# ignore height when evaluating claims
+ignoreHeight: false
+
+# ignore subclaims when deciding whether the source block and the target are in the same claim
+ignoreSubClaims: true
+
+# level of progress messages written to the console. One of: "off", "severe", "warning", "info", "config", "fine",
+# "finer", "finest". "debug" (an alias for "fine") "trace" (an alias for "finer"), and "all" (an alias for "finest")
+# are also accepted.
+logLevel: CONFIG

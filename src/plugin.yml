@@ -1,0 +1,11 @@
+main:         'dev.metanoia.smartitemsort.griefprevention.SmartItemSortGriefPrevention'
+name:         'SmartItemSortGriefPrevention'
+version:      '1.0.0'
+author:       'BornToCode'
+website:      'https://www.spigotmc.org/resources/smartitemsort-griefprevention.100925'
+api-version:  '1.16'
+depend:       ['GriefPrevention', 'SmartItemSort']
+load:         'POSTWORLD'
+
+description: |
+  Enforces GriefPrevention claim protections on the item teleports that SmartItemSort performs.
